@@ -6,7 +6,7 @@ btn.addEventListener('click', (e) => {
   num = parseInt(num);
 
   if (isNaN(num)) {
-    alert('Debes intriducir un número');
+    alert('Debes introducir un número válido');
   } else {
     let factorial = 1;
 
